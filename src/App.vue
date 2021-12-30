@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" style="font-family: yekan">
+  <div dir="rtl" style="font-family: normal">
     <Home />
   </div>
 </template>

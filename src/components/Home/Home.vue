@@ -8,7 +8,7 @@
             <svg class="flex-shrink-0 h-6 fill-current" viewBox="0 0 512 512"><title>Menu</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
           </div>
         </div>
-        <div ref="mainMenu" class="z-10 hidden lg:flex flex-col text-2xl lg:text-base lg:flex-row flex-1 absolute lg:relative w-full bg-pink-900 lg:bg-transparent text-white lg:text-gray-900 min-h-screen lg:min-h-0 transform transition-all scale-x-0 lg:scale-x-100">
+        <div ref="mainMenu" class="z-10 hidden font-normal lg:font-semibold lg:flex flex-col text-2xl lg:text-base lg:flex-row flex-1 absolute lg:relative w-full bg-pink-900 lg:bg-transparent text-white lg:text-gray-900 min-h-screen lg:min-h-0 transform transition-all scale-x-0 lg:scale-x-100">
           <div class="flex flex-col pt-4 lg:pt-0 lg:flex-row justify-start items-start lg:items-center w-auto lg:w-75/100">
             <a class="ml-6 px-4 lg:px-2 py-1 lg:py-0 mt-2 lg:mt-0 cursor-pointer hover:opacity-70">خرید ویلا</a>
             <a class="ml-6 px-4 lg:px-2 py-1 lg:py-0 mt-2 lg:mt-0 cursor-pointer hover:opacity-70">خرید زمین</a>
@@ -56,6 +56,11 @@
       <which-region />
       <special-sale />
       <introduction-cards />
+      <ten-best-amlak />
+      <statistics />
+      <ten-best-moshaver />
+      <other-cities />
+      <site-footer />
     </div>
 
   </div>
@@ -68,14 +73,23 @@
   import whichRegion from './WhichRegion.vue';
   import specialSale from './SpecialSail.vue';
   import introductionCards from './IntroductionsCards.vue';
-  
+  import tenBestAmlak from './TenBestAmlak.vue';
+  import statistics from './Statistics.vue';
+  import tenBestMoshaver from './TenBestMoshaver.vue';
+  import otherCities from './OtherCities.vue';
+  import siteFooter from './SiteFooter.vue';
 
   export default defineComponent({
     components: {
       searchBar,
       whichRegion,
       specialSale,
-      introductionCards
+      introductionCards,
+      tenBestAmlak,
+      statistics,
+      tenBestMoshaver,
+      otherCities,
+      siteFooter
     },
 
     setup() {

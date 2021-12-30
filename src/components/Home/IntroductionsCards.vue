@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center items-center w-full font-semibold px-8 lg:px-20 mb-96" >
+    <div class="flex flex-col justify-center items-center w-full font-semibold px-8 lg:px-20 mb-24 lg:mb-32" >
         <div class="grid grid-row-3 lg:grid-cols-3 gap-4">
             <div class="flex justify-center items-center text-xl rounded-lg overflow-hidden relative">
                 <img src="../../assets/introduction-cards/house-and-key.jpg" alt="">
