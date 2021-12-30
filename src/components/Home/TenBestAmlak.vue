@@ -36,7 +36,7 @@ export default defineComponent({
 
     setup(props) {
         const settings = {
-            itemsToShow: 2,
+            itemsToShow: 1.5,
             snapAlign: 'center',
         }
 
