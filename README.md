@@ -7,7 +7,7 @@
   cd Camouda_test_project
 ```
 ```
-  npm inastall
+  npm install
 ```
 ```
   npm run dev
